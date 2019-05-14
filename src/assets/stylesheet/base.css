@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --purple: #441555;
+  --white: #fff;
+  --black: #000;
+  --light:  #9a2a8e;
+}
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  background-color: var(--white);
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 250px;
+}
+.container {
+  margin: 0 auto;
+}
+.main {
+  margin: 4rem;
+}
+@media (max-width: 500px) {
+  .main {
+    margin: 1rem 1rem 0;
+  }
+}

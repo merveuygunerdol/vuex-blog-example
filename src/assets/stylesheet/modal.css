@@ -1,0 +1,49 @@
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.modal {
+  display: grid;
+  margin: 0 auto;
+  width: 542px;
+  max-width: 100%;
+  top: 250px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 rgba(68, 21, 85, 0.5);
+  background-color: #ffffff;
+}
+header {
+  font-size: 22px;
+  color: var(--light);
+  font-weight: 500;
+}
+.btn-close {
+  border: none;
+  background: transparent;
+  color: var(--light);
+  cursor: pointer;
+}
+.btn-close:hover {
+  color: var(--purple)
+}
+.btn-delete {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  width: 78px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: var(--light);
+  cursor: pointer;
+}
+.btn-delete:hover {
+  background: var(--purple);
+}
+.button:active,
+button:active,
+.button:focus,
+button:focus,
+.button:hover,
+button:hover {
+  border:none !important;
+  outline:none !important;
+}
